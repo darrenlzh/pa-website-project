@@ -421,6 +421,14 @@ ol > li:before {
 
 /*-------members.html PAGE-------*/
 
+#personProfile {
+	border: 1px solid green;
+	margin-left: 40px;
+	margin-right: 40px;
+	margin-bottom: 50px;
+	margin-top: 20px;
+}
+
 #prof_pic img {
 	margin-left: 50px;
 	margin-top: 45px;
@@ -429,38 +437,29 @@ ol > li:before {
 	max-width: 170px;
 	max-height: 200px;
 	float: left;
+	width: 20%;
 	font-family: Arial;
 	font-style: bold;
+	border: 1px solid yellow;
 }
 
-#prof_text {
-	margin-top: 100px;
-	margin-right: 40px;
-	margin-left: 220px;
+#personDescription {
+	/*margin-right: 40px;
+	margin-left: 220px;*/
 	font-family: Georgia;
+	color: black;
 	text-align: justify;
-	margin-bottom: 4%;
-	/*border: 1px solid red;*/
+	vertical-align: middle;
+	border: 1px solid red;
+	float: right;
 }
 
-/* unvisited link */
-#prof_text a:link {
-	 color: black;
-	 text-decoration: none;
-}
-/* visited link */
-#prof_text a:visited {
-	 color: black;
-	 text-decoration: none;
-}
-/* mouse over link */
-#prof_text a:hover {
-	 color: #666666;
-}
-/* selected link */
-#prof_text a:active {
-	 color: black;
-	 text-decoration: none;
+#profileName {
+	font-family: Arial;
+	color: black;
+	font-weight: bold;
+	font-size: 20px;
+	margin-top:15px;
 }
 
 #degreeLevel {
@@ -475,43 +474,15 @@ ol > li:before {
 	text-align: left;
 }
 
-.studentProfile {
-	display: inline-block;
-	margin-left: 40px;
-	margin-right: 40px;
-	margin-bottom: 50px;
-	margin-top: 20px;
-}
-
-.studentPicture_img img {
+#studentPicture_img img {
 	max-width: 150px;
-	height: 150px;
-	margin-left: 20px;
-	padding-top: 10px;
-	padding-bottom: 30px;
+	border: 1px solid blue;
+	margin-left: 10px;
+	margin-bottom: 20px;
 	float: left;
-	/*border: 1px solid blue;*/
 }
 
-.studentDescription {
-	margin-right: 40px;
-	margin-left: 220px;
-	font-family: Georgia;
-	color: black;
-	text-align: justify;
-	vertical-align:middle;
-	/*border: 1px solid red;*/
-}
-
-.profileName {
-	font-family: Arial;
-	color: black;
-	font-weight: bold;
-	font-size: 20px;
-	margin-top:15px;
-}
-
-.students {
+#students {
 	font-family: Arial;
 	margin-left: 6%;
 	margin-top: 14px;
